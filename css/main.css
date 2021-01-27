@@ -271,11 +271,16 @@ textarea {
 .carousel-item img {
  height:75vh;
  object-fit: cover;
+ filter: contrast(0.6);
 }
 
 .carousel-caption {
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  opacity: 0.85;
 }
 
 .carousel-caption h5 {
@@ -297,4 +302,11 @@ textarea {
 .col-md-5 img {
   border-radius: 100%;
   margin: 3em 00;
+}
+
+#footer {
+  color: #ccc;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  font-size: 0.9em;
 }
