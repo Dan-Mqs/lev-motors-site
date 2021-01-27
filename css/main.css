@@ -266,6 +266,10 @@ textarea {
   font-weight: normal;
 }
 
+.logo-block img {
+  height: 1.8em;
+}
+
 /*Carousel*/
 
 .carousel-item img {
@@ -309,4 +313,8 @@ textarea {
   padding-top: 3em;
   padding-bottom: 2em;
   font-size: 0.9em;
+}
+
+#footer-logo {
+  max-width: 10em;
 }
