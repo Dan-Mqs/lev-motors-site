@@ -270,6 +270,16 @@ textarea {
   height: 1.8em;
 }
 
+#contact-button {
+  color: #8cc34a;
+  border-color: #8cc34a;
+}
+
+#contact-button:hover {
+  color: inherit;
+  background-color: #8cc34a;
+}
+
 /*Carousel*/
 
 .carousel-item img {
