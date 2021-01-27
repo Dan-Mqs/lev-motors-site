@@ -260,4 +260,41 @@ textarea {
     page-break-after: avoid;
   }
 }
+/*navbar*/
 
+.navbar-brand {
+  font-weight: normal;
+}
+
+/*Carousel*/
+
+.carousel-item img {
+ height:75vh;
+ object-fit: cover;
+}
+
+.carousel-caption {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.carousel-caption h5 {
+  font-size: 5em;
+}
+
+.carousel-caption p {
+  font-size: 2em;
+}
+
+.container {
+  text-align: center;
+}
+
+.row {
+  align-items: center;
+}
+
+.col-md-5 img {
+  border-radius: 100%;
+  margin: 3em 00;
+}
