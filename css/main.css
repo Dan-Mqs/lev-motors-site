@@ -304,6 +304,7 @@ textarea {
 .carousel-caption p {
   font-size: 2em;
 }
+/*Content*/
 
 .container {
   text-align: center;
@@ -311,6 +312,10 @@ textarea {
 
 .row {
   align-items: center;
+}
+
+#first-row {
+  margin-top: 2em;
 }
 
 .col-md-5 img {
