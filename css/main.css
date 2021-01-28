@@ -83,9 +83,6 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
 
 /* ==========================================================================
    Helper classes
@@ -260,82 +257,88 @@ textarea {
     page-break-after: avoid;
   }
 }
+
+/* ================= Custom Style Start ======================= */
+
+
 /*navbar*/
 
-.navbar-brand {
-  font-weight: normal;
-}
+  .navbar-brand {
+    font-weight: normal;
+  }
 
-.logo-block img {
-  height: 1.8em;
-}
+  .logo-block img {
+    height: 1.8em;
+  }
 
-#contact-button {
-  color: #8cc34a;
-  border-color: #8cc34a;
-}
+  #contact-button {
+    color: #8cc34a;
+    border-color: #8cc34a;
+  }
 
-#contact-button:hover {
-  color: inherit;
-  background-color: #8cc34a;
-}
+  #contact-button:hover {
+    color: inherit;
+    background-color: #8cc34a;
+  }
 
 /*Carousel*/
 
-.carousel-item img {
- height:75vh;
- object-fit: cover;
- filter: contrast(0.6);
-}
+  .carousel-item img {
+  height:75vh;
+  object-fit: cover;
+  filter: contrast(0.6);
+  }
 
-.carousel-caption {
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: initial;
-  opacity: 0.9;
-}
+  .carousel-caption {
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    opacity: 0.9;
+  }
 
-.carousel-caption h5 {
-  font-size: 5em;
-  font-weight: bolder;
-}
+  .carousel-caption h5 {
+    font-size: 5em;
+    font-weight: bolder;
+  }
 
-.carousel-caption p {
-  font-size: 2em;
-}
+  .carousel-caption p {
+    font-size: 2em;
+  }
 
-.caption-dot {
-  color: #8cc34a;
-}
+  .caption-dot {
+    color: #8cc34a;
+  }
 
 /*Content*/
 
-.container {
-  text-align: center;
-}
+  .container {
+    text-align: center;
+  }
 
-.row {
-  align-items: center;
-}
+  .row {
+    align-items: center;
+  }
 
-#first-row {
-  margin-top: 2em;
-}
+  #first-row {
+    margin-top: 2em;
+  }
 
-.col-md-5 img {
-  border-radius: 100%;
-  margin: 3em 00;
-}
+  .col-md-5 img {
+    border-radius: 100%;
+    margin: 3em 00;
+  }
 
-#footer {
-  color: #ccc;
-  padding-top: 3em;
-  padding-bottom: 2em;
-  font-size: 0.9em;
-}
+/*Footer*/
 
-#footer-logo {
-  max-width: 10em;
-}
+  #footer {
+    color: #ccc;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    font-size: 0.9em;
+  }
+
+  #footer-logo {
+    max-width: 10em;
+  }
