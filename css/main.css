@@ -294,16 +294,22 @@ textarea {
   top: 50%;
   transform: translateY(-50%);
   bottom: initial;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .carousel-caption h5 {
   font-size: 5em;
+  font-weight: bolder;
 }
 
 .carousel-caption p {
   font-size: 2em;
 }
+
+.caption-dot {
+  color: #8cc34a;
+}
+
 /*Content*/
 
 .container {
