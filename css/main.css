@@ -296,6 +296,7 @@ textarea {
     transform: translateY(-50%);
     bottom: initial;
     opacity: 0.9;
+    display: block!important;
   }
 
   .carousel-caption h5 {
